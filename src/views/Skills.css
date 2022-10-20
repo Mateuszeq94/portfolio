@@ -1,0 +1,136 @@
+div.mySkills {
+    display: flex;
+    flex-direction: column;
+    color: #2c649d;
+}
+
+.skills h1 {
+    margin: 45px 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: #2c649d;
+}
+
+img.logo {
+    width: 150px;
+    height: 150px;
+    margin: 30px auto;
+}
+
+
+
+div.aboutSkill {
+    display: flex;
+    flex-direction: column;
+}
+
+div.aboutSkill p {
+    margin: 0 25px;
+    padding: 0;
+    font-size: 15px;
+    line-height: 130%;
+}
+
+
+a.readMore {
+    display: block;
+    margin: 25px 30px;
+    padding: 8px 0;
+    border: 2px solid #2c649d;
+    font-size: 11px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #2c649d;
+    background-color: white;
+    transition: 0.4s;
+}
+
+a.readMore:hover {
+    background-color: #003972;
+    color: white;
+    transform: scale(1.1);
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 150%;
+}
+
+
+
+@media screen and (min-width: 360px) {
+    div.aboutSkill p {
+        font-size: 18px;
+    }
+
+    a.readMore {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    section {
+        max-width: 80%;
+        margin: auto;
+    }
+
+    .skills h1 {
+        font-size: 37px;
+    }
+
+    img.logo {
+        width: 250px;
+        height: 250px;
+        margin: 30px auto 50px;
+    }
+
+    div.aboutSkill p {
+        font-size: 25px;
+    }
+
+    a.readMore {
+        padding: 18px 0;
+        margin: 45px 30px;
+        font-size: 23px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    div.aboutSkill p {
+        font-size: 28px;
+    }
+
+    a.readMore {
+        padding: 23px 0;
+        margin: 55px 45px;
+        font-size: 25px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .skills h1 {
+        font-size: 37px;
+    }
+
+    section {
+        flex-direction: row;
+        width: calc(100%-300px);
+        margin-right: 300px;
+    }
+
+    .even {
+        flex-direction: row-reverse;
+        margin-left: 300px;
+        margin-right: 0px;
+    }
+
+    img.logo {
+        margin: auto 0 300px;
+    }
+}

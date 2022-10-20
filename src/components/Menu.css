@@ -1,0 +1,53 @@
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    max-width: 1600px;
+    background-color: #2c649d;
+}
+
+.menu a {
+    flex-basis: 30%;
+    flex-grow: 1;
+    letter-spacing: 1px;
+    width: 100%;
+    padding: 5px 15px;
+    line-height: 200%;
+    font-size: 17px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    transition: .4s;
+}
+
+.menu a.active,
+.menu a:hover {
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    background-color: #003972;
+}
+
+@media screen and (min-width: 360px) {
+    .menu a {
+        font-size: 21px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .menu a {
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .menu a {
+        flex-basis: 175px;
+        flex-grow: 0;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .menu a {
+        font-size: 27px;
+    }
+}

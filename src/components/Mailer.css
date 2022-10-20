@@ -1,0 +1,80 @@
+.container h1 {
+    margin: 15px 0;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+label {
+    margin: 4px;
+    letter-spacing: 1px
+}
+
+.btn {
+    margin-top: 20px;
+    letter-spacing: 1px
+}
+
+.thanks {
+    margin: 0 auto 35px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 321px) {
+    label {
+        font-size: 20px;
+    }
+
+    .container h1 {
+        font-size: 30px;
+    }
+
+    .thanks {
+        margin: 35px auto;
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container h1 {
+        font-size: 40px;
+    }
+
+    .form-control,
+    label {
+        font-size: 25px;
+    }
+
+    .thanks {
+        margin: 70px auto 50px;
+        font-size: 35px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .container {
+        width: 40vw;
+    }
+
+    .form-control[type="submit"] {
+        margin: 40px 0;
+    }
+
+    .thanks {
+        width: 40vw;
+        margin: auto 0;
+        padding: 0 10px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .container h1 {
+        font-size: 45px;
+    }
+
+    .form-control,
+    label {
+        font-size: 25px;
+    }
+}

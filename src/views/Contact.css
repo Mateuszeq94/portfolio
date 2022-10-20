@@ -1,0 +1,72 @@
+div.contactContainer {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    color: #2c649d;
+}
+
+.media {
+    font-size: 16px;
+    cursor: pointer;
+}
+
+a span {
+    display: inline-block;
+    color: #2c649d;
+}
+
+
+.media i {
+    font-size: 33px;
+    padding: 10px 15px 10px 10px;
+    color: #0d6efd;
+}
+
+@media screen and (min-width: 321px) {
+    .media {
+        margin-top: 50px;
+        font-size: 20px;
+    }
+
+    .media i {
+        font-size: 35px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .media {
+        margin-top: 100px;
+        font-size: 25px;
+    }
+
+    .media i {
+        font-size: 45px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    div.contactContainer {
+        flex-direction: row;
+        flex-grow: 1;
+    }
+
+    .media {
+        flex-grow: 1;
+        margin: auto 0px auto 30px;
+    }
+
+    .media i {
+        padding: auto 12px;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+    .media {
+        font-size: 25px;
+    }
+
+    .media i {
+        font-size: 45px;
+    }
+}

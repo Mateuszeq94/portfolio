@@ -1,0 +1,66 @@
+.errorPage {
+    display: flex;
+    flex-direction: column;
+}
+
+.errorPage img {
+    display: block;
+    width: 250px;
+    margin: -36px auto 30px;
+}
+
+h1.error {
+    padding: 0 5%;
+    text-align: center;
+    color: #2c649d;
+}
+
+.errorPage a {
+    display: block;
+    margin: 5px 50px 0;
+    text-align: center;
+}
+
+@media screen and (min-width: 360px) {
+    .errorPage img {
+        width: 300px;
+    }
+
+    h1.error {
+        padding: 0 7%;
+        color: #2c649d;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .errorPage img {
+        width: 350px;
+        margin-bottom: 35px;
+    }
+
+    h1.error {
+        padding: 0 10%;
+        font-size: 40px;
+        color: #2c649d;
+    }
+
+    .errorPage a {
+        margin: 3% 25% 0;
+        font-size: 23px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .errorPage {
+        flex-direction: row;
+    }
+
+    .errorPage img {
+        width: 400px;
+        margin-left: 10%;
+    }
+
+    .errorPage div {
+        margin: auto;
+    }
+}
