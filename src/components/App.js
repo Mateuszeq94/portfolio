@@ -1,7 +1,6 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import { Header } from "./Header";
-import { Footer } from "./Footer";
 import { AboutMe } from "../views/AboutMe";
 import { Skills } from "../views/Skills";
 import { Contact } from "../views/Contact";
@@ -28,7 +27,7 @@ export const App = () => {
         </Routes>
       </div>
       <ArrowButton />
-      <Footer />
+      <footer>&copy; {new Date().getFullYear()} Mateusz Magier</footer>
     </div>
   );
 };

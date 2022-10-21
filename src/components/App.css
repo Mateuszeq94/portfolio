@@ -35,6 +35,28 @@ div.main {
   top: 30vh;
 }
 
+footer {
+  margin-top: 20px;
+  max-width: 100%;
+  font-size: 15px;
+  line-height: 250%;
+  color: white;
+  background-color: #2c649d;
+  text-align: center;
+}
+
+@media screen and (min-width: 410px) {
+  footer {
+    font-size: 17px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  footer {
+    font-size: 21px;
+  }
+}
+
 @media screen and (min-width: 1024px) {
   .navBar {
     position: relative;
