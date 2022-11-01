@@ -33,6 +33,7 @@ export const Skills = () => {
               <a
                 href="https://en.wikipedia.org/wiki/HTML"
                 className="readMore btn"
+                target="_blank"
               >
                 Read more about HTML
               </a>
@@ -60,6 +61,7 @@ export const Skills = () => {
               <a
                 href="https://en.wikipedia.org/wiki/CSS"
                 className="readMore btn"
+                target="_blank"
               >
                 Read more about CSS
               </a>
@@ -85,6 +87,7 @@ export const Skills = () => {
               <a
                 href="https://en.wikipedia.org/wiki/JavaScript"
                 className="readMore btn"
+                target="_blank"
               >
                 Read more about JavaScript
               </a>
@@ -110,6 +113,7 @@ export const Skills = () => {
               <a
                 href="https://en.wikipedia.org/wiki/React_(JavaScript_library)"
                 className="readMore btn"
+                target="_blank"
               >
                 Read more about React
               </a>

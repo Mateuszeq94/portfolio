@@ -11,13 +11,16 @@ export const Contact = () => {
         <Mailer />
         <div className="media">
           <div>
-            <a href="https://www.linkedin.com/in/mateusz-magier/?locale=en_US">
+            <a
+              href="https://www.linkedin.com/in/mateusz-magier/?locale=en_US"
+              target="_blank"
+            >
               <i className="fa-brands fa-linkedin" />
               <span>LinkedIn</span>
             </a>
           </div>
           <div>
-            <a href="https://github.com/Mateuszeq94">
+            <a href="https://github.com/Mateuszeq94" target="_blank">
               <i className="fa-brands fa-github" />
               <span>Git</span>
             </a>
