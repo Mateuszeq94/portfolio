@@ -12,7 +12,7 @@ export const Contact = () => {
         <div className="media">
           <div>
             <a
-              href="https://www.linkedin.com/in/mateusz-magier/?locale=en_US"
+              href="https://www.linkedin.com/in/mateusz-magier"
               target="_blank"
             >
               <i className="fa-brands fa-linkedin" />
