@@ -18,15 +18,14 @@ export const AboutMe = () => {
           <div>
             <h1 className="header">About me</h1>
             <p className="intro">
-              Hi! I'm <strong>Mateusz</strong>. I'm 28. I've always been
-              interested in computers. I like playing computer games my passion
-              began with them. Whenever I had a problem with my computer I
-              always tried to solve it. I was looking for solutions on the
-              internet and followed the step-by-step instructions to solve it. I
-              was always aiming for the goal. From an early age I was learning
-              features that are important for a programmer, such as patience,
-              searching for information on the Internet, problem solving, pursue
-              goals.
+              Hi, I am <strong>Mateusz</strong>. I'm 28 years old. I have always
+              been interested in computers. I like to play computer games my
+              passion started with them. Whenever I had a problem with my
+              computer I always tried to solve it. I looked for solutions on the
+              Internet and proceeded step by step to solve it. I always pursued
+              my goal. From an early age I learned the qualities important for a
+              programmer, such as patience, searching for information on the
+              Internet, solving problems, and striving for a goal.
             </p>
           </div>
         </Slide>
@@ -39,11 +38,11 @@ export const AboutMe = () => {
           <div>
             <h1 className="header">Free time</h1>
             <p className="freeTime">
-              I like sports. My favorite at the moment is snowboarding. I love
-              snowboarding and feeling free, fast and adrenaline. I also like
-              kayaking and camping with my friends. I love traveling with my
-              fiancee. Sightseeing and walking on the trails. Watching wild
-              nature in natural environment. I like playing computer and board
+              I like sports. The current favorite is snowboarding. I love
+              snowboarding and the feeling of freedom, speed and adrenaline. I
+              also enjoy kayaking and camping with my friends. I love to travel
+              with my fiancé. Exploring and hiking the trails. Watching wildlife
+              in a natural environment. I enjoy playing computer and board
               games.
             </p>
           </div>
@@ -57,17 +56,17 @@ export const AboutMe = () => {
           <div>
             <h1 className="header">Programming story</h1>
             <p className="programmingStory">
-              I decided to start programming in 2018. My first language that I
-              started it was c++. After finishing the youtube course, I was not
-              able to write anything myself and I didn't like it and I stopped
+              In 2018, I decided to start programming. My first language to
+              start with was c++. After finishing a course on youtube, I
+              couldn't write anything myself, I didn't like it and stopped
               learning it. My next language was Python. Python was much
-              friendlier than c ++. I have familiarized myself with beginner and
-              advanced aspects of python however, I didn't like it either. My
+              friendlier than c ++. I became familiar with the beginner and
+              advanced aspects of python however I didn't like it either. My
               third choice was HTML and CSS . I fell in love from the first line
-              of code. Later I added JavaScript which was very similar to Python
-              and which made it easier for me to learn. Once I had mastered
-              HTML, CSS and JavaScript, I decided to add React.js. From then on,
-              programming became even more fun and I writing code with passion.
+              of code. Later I added JavaScript, which was very similar to
+              Python, which made learning easier. Once I mastered HTML, CSS and
+              JavaScript, I decided to add React.js. Since then, programming has
+              become even more fun, and I write code with passion.
             </p>
           </div>
         </Slide>
